@@ -115,7 +115,7 @@ main{
 .main-section2{
     border: 2px solid black;
     padding: 48px;
-
+    border-radius: 16px;
     margin: 32px 0px;
 }
 .section2-container{
@@ -151,12 +151,48 @@ main{
 
 /* main section-3 styles */
 
+.main-section3{
+    border: 2px solid black;
+    padding: 48px;
+    border-radius: 16px;
+    margin: 32px 0px;
+}
+.section3-container{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    border: 1px solid black;
+}
+.text-content{
+    margin: 10px 0px;
+    max-width: 477px;
+    height: 219px;
+}
+.section3-text-title{
+    color: rgba(13, 19, 33, 0.7);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 700;
+}
+.section3-text-description{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 14px;
+    font-weight: 400;
+}
+.section3-container .text-content button{
+    padding: 12px 20px 12px 20px;
+    margin: 25px 0px;
+}
+.section3-container  .text-content button a{
+    text-decoration: none;
+}
 
 /* main section-4 styles */
 .main-section4{
     border: 2px solid black;
     padding: 48px;
-
+    border-radius: 16px; 
     margin: 32px 0px;
 }
 .section4-container{
@@ -189,3 +225,33 @@ main{
 .section4-container  .text-content button a{
     text-decoration: none;
 }
+
+/* main section-5 styles */
+.main-section5{
+    max-width: 1140px;
+    max-height: 775px;
+    padding: 32px;
+    margin: 0 auto;
+    border-radius: 16px;
+    border: 1px solid black;
+    margin-top: 50px;
+}
+.youtube-section-title{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 800;
+}
+.youtube-section-description{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.youtube-section-online-link{
+    border-radius: 16px;
+    margin-top: 50px;
+
+}
+    
