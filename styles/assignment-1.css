@@ -160,8 +160,9 @@ main{
 }
 .section2-container  .text-content button a{
     text-decoration: none;
+    font-weight: 700;
+    color: rgb(13, 19, 33);
 }
-
 /* main section-3 styles */
 main{
     color: white;
@@ -204,6 +205,8 @@ main{
 }
 .section3-container  .text-content button a{
     text-decoration: none;
+    font-weight: 700;
+    color: rgb(13, 19, 33);
 }
 
 /* main section-4 styles */
@@ -244,6 +247,8 @@ main{
 }
 .section4-container  .text-content button a{
     text-decoration: none;
+    font-weight: 700;
+    color: rgb(13, 19, 33);
 }
 
 /* main section-5 styles */
@@ -488,14 +493,20 @@ main{
 .optional-content1 a{
     font-size: 12px;
     text-align: left;
+    font-weight: 700;
+    color: black;
 }
 .optional-content2 a{
     font-size: 12px;
     text-align: left;
+    font-weight: 700;
+    color: black;
 }
 .optional-content3 a{
     font-size: 12px;
     text-align: left;
+    font-weight: 700;
+    color: black;
 }
 
 /* main section-8 styles */
