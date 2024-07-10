@@ -16,6 +16,11 @@
 
 /* header section styles */
 
+#header{
+    max-width: 1440px;
+    max-height: 780px;
+    margin: 0 auto;
+}
 nav h3{
     font-size: 28px;
 }
