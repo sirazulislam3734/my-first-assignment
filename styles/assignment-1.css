@@ -10,7 +10,9 @@
 .text-center{
     text-align: center;
 }
-
+.text-color{
+    color: black;
+}
 
 /* header section styles */
 
@@ -21,7 +23,7 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 0px 150px 50px 150px;
+    margin: 0px 150px 30px 150px;
 }
 nav ul li{
     list-style: none;
@@ -40,34 +42,38 @@ nav ul li a button{
 #banner-section{
     max-width: 1440px;
     max-height: 652px;
-    margin: 0 auto;
-    /* padding: 26px 0px; */
+    margin:0px auto;
+    padding: 26px 0px;
     background-position: center;
     background-image: url('../assets/Hero-bg.png'); 
 }
 .banner-container{
-    width: 995px;
-    height: 580px;
-    margin: 26px auto 45px auto;
+    max-width: 998px;
+    height: 581px;
+    margin: 0 auto;
 }
 .banner-text-title h1{
     color: rgb(13, 19, 33);
-    font-family: Azeret Mono;
+    font-family: "Azeret Mono", monospace;
     font-size: 35px;
-    font-weight: 800; 
+    font-weight:800; 
 }
 .banner-text-title p{
     color: rgb(13, 19, 33);
-    font-family: Azeret Mono;
+    font-family: "Azeret Mono", monospace;
     font-size: 14px;
     font-weight: 400;
 }
 .banner-text-title button{
     padding: 21px 24px 21px 24px;
     border-radius: 8px;
-    margin-top: 28px;
+    margin-top: 30px;
     color: white;
     background: rgb(13, 19, 33);
+}
+.banner-text-title button a{
+    text-decoration: none;
+    color: white;
 }
 .banner-image1{
     width: 235px;
@@ -84,15 +90,13 @@ main{
     max-height: 1395px;
     padding: 80px 97px 80px 97px;
     border-radius: 16px;
-    margin: 0 auto;
-    border: 1px solid black;
+    margin: 70px auto 0 auto;
     background: rgba(13, 19, 33, 0.02);
 }
 .developer-section{
     max-width: 946px;
     max-height: 336px;
     margin: 0 auto;
-    border: 1px solid black;
 }
 .developer-section-title{
     color: rgb(13, 19, 33);
@@ -110,8 +114,8 @@ main{
 
 /* main section-2 styles */
 .main-section2{
-    border: 2px solid black;
     padding: 48px;
+    background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
     border-radius: 16px;
     margin: 32px 0px;
 }
@@ -119,7 +123,6 @@ main{
     display: flex;
     gap: 30px;
     justify-content: space-between;
-    border: 1px solid black;
 }
 .text-content{
     margin: 10px 0px;
@@ -147,18 +150,20 @@ main{
 }
 
 /* main section-3 styles */
-
+main{
+    color: white;
+}
 .main-section3{
-    border: 2px solid black;
     padding: 48px;
+    background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
     border-radius: 16px;
     margin: 32px 0px;
 }
 .section3-container{
     display: flex;
+    color: white;
     gap: 30px;
     justify-content:flex-start;
-    border: 1px solid black;
 }
 .text-content{
     margin: 10px 0px;
@@ -187,8 +192,8 @@ main{
 
 /* main section-4 styles */
 .main-section4{
-    border: 2px solid black;
     padding: 48px;
+    background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
     border-radius: 16px; 
     margin: 32px 0px;
 }
@@ -196,7 +201,6 @@ main{
     display: flex;
     gap: 30px;
     justify-content:space-between;
-    border: 1px solid black;
 }
 .text-content{
     margin: 10px 0px;
@@ -230,7 +234,6 @@ main{
     padding: 32px;
     margin: 0 auto;
     border-radius: 16px;
-    border: 1px solid black;
     margin-top: 50px;
 }
 .youtube-section-title{
@@ -261,14 +264,13 @@ main{
     max-height: 460px;
     margin: 150px auto 110px auto;
     border-radius: 16px;
-    border: 1px solid black;
 }
 .section-card-title{
     text-align: center;
     margin: 0px 140px 45px 140px;
 }
 .card-text-title{
-    color: rgb(13, 19, 33);
+    color:rgb(13, 19, 33);
     font-family: Azeret Mono;
     font-size: 32px;
     font-weight: 800;
@@ -292,7 +294,6 @@ main{
     border-radius: 16px;
     background: rgba(255, 76, 30, 0.05);
     margin: 0px 24px 0px 0px;
-    border: 1px solid black;
     padding: 40px 40px;
 }
 .card-title2{
@@ -301,7 +302,6 @@ main{
     margin: 0px 24px;
     border-radius: 16px;
     background: rgba(0, 76, 232, 0.05);
-    border: 1px solid black;
     padding: 40px 40px;
 }
 .card-title3{
@@ -312,7 +312,6 @@ main{
     background: rgba(255, 223, 0, 0.05);
     margin: 0px 0px 0px 24px;
     padding: 40px 40px;
-    border: 1px solid black;
 }
 .card-title1 h1{
     color: rgb(13, 19, 33);
@@ -373,10 +372,10 @@ main{
     max-height: 866px;
     margin: 150px auto 110px auto;
     border-radius: 16px;
-    border: 1px solid black;
 }
 .optional-title{
     text-align: center;
+    color: black;
     margin: 0px 140px 45px 140px;
 }
 
@@ -386,13 +385,13 @@ main{
     margin: auto 0;
 }
 .optional-content1 .image-2{
-    width: 64px;
-    height: 84px;
+    width: 108px;
+    height: 70px;
     margin: auto 0;
 }
 .optional-content1 .image-3{
     width: 108px;
-    height: 108px;
+    height: 70px;
     margin: auto 0;
 }
 /* .optional-content1 .image-1 img{
@@ -421,7 +420,7 @@ main{
 }
 .optional-content2{
     max-width: 1100px;
-    max-height: 183px;
+    max-height: 200px;
     display: flex;
     gap: 20px;
     align-items: center;
@@ -435,16 +434,17 @@ main{
 }
 .optional-content3{
     max-width: 1100px;
-    max-height: 183px;
+    max-height: 200px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
     gap: 20px;
     box-sizing: border-box;
     border: 1px solid rgba(13, 19, 33, 0.15);
     border-radius: 16px;
     background: rgb(255, 255, 255);
     margin: 14px auto 0px auto;
-    padding: 30px;
+    padding: 40px;
 }
 .content-text-title{
     color: rgb(13, 19, 33);
@@ -479,7 +479,7 @@ main{
     background-size: 1140px 413px;
     background-image:linear-gradient(180.00deg, rgb(7, 2, 17),rgba(7, 2, 17, 0) 100%), url('../assets/handshake.jpg');
     padding: 64px 48px;
-    margin: 0 auto;
+    margin: 0px auto 80px auto;
     border: 1px solid black;
 }
 .last-section-test{
@@ -520,5 +520,22 @@ main{
     font-family: Azeret Mono;
     font-size: 18px;
     font-weight: 600;
+}
 
+/* footer section styles */
+ #footer{
+    max-width: 1440px;
+    margin: 0 auto;
+    max-height: 100px;
+    padding: 32px 150px;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.03);
+}
+.section-title{
+    display: flex;
+    justify-content: space-between;
+}
+.last-text a{
+    text-decoration: none;
+    color:rgb(13, 19, 33) ;
 }
